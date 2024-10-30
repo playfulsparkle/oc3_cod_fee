@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-This file is part of "Playful Sparkle - COD Fee" project and subject to the terms
+This file is part of "Playful Sparkle - COD fee" project and subject to the terms
 and conditions defined in file "LICENSE", which is part of this source
 code package and also available on the project page: https://github.com/playfulsparkle/oc3_cod_fee.git
 -->
 <modification>
-    <name>Playful Sparkle - COD Fee</name>
+    <name>Playful Sparkle - COD fee</name>
     <code>ps_cod_fee</code>
     <version>1.0.1</version>
     <author>Playful Sparkle</author>
