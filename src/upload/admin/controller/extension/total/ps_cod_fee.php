@@ -1,6 +1,16 @@
 <?php
 class ControllerExtensionTotalPsCodFee extends Controller
 {
+    /**
+     * @var string The support email address.
+     */
+    const EXTENSION_EMAIL = 'support@playfulsparkle.com';
+
+    /**
+     * @var string The documentation URL for the extension.
+     */
+    const EXTENSION_DOC = 'https://github.com/playfulsparkle/oc3_cod_fee.git';
+
     private $error = array();
 
     public function index()
@@ -73,6 +83,8 @@ class ControllerExtensionTotalPsCodFee extends Controller
         } else {
             $data['total_ps_cod_fee_sort_order'] = $this->config->get('total_ps_cod_fee_sort_order');
         }
+
+        $data['text_contact'] = sprintf($this->language->get('text_contact'), self::EXTENSION_EMAIL, self::EXTENSION_EMAIL, self::EXTENSION_DOC);
 
         $data['header'] = $this->load->controller('common/header');
         $data['column_left'] = $this->load->controller('common/column_left');
