@@ -9,16 +9,12 @@ The **Playful Sparkle - COD fee** automatically adds a configurable fee to the t
 ### Playful Sparkle - COD fee
 - Adds a customizable fee to the total when **Cash on Delivery (COD)** is selected during checkout.
 - Configurable fee options: fixed amount to be added to the total order value.
-- Easy setup via the OpenCart interface.
-- Compatible with OpenCart v3.x.
+- Easy setup via the OpenCart 3.x interface.
+- Compatible with OpenCart 3.x.
 
 ---
 
 ## Installation Instructions
-
-### Important note
-
-OpenCart requires all extension package filenames to end in the `.ocmod.zip` format for successful installation. Although the `ps_cod_fee` extension is not technically an `OCMOD` (since it contains all the required files to work properly without any `OCMOD` modifications), the package still needs to follow this naming convention to ensure compatibility with OpenCart's installer.
 
 ### 1. Download the Extension
 Download the latest **Playful Sparkle - COD fee** release from this repository.
