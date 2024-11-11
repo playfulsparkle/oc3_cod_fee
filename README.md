@@ -14,8 +14,6 @@ The **Playful Sparkle - COD fee** extension for OpenCart 3.x+ allows store owner
 
 ## Installation Instructions
 
-### Installation Instructions for OpenCart 3.x+
-
 1. Download the latest version from this repository.
 2. Log in to your OpenCart admin panel.
 3. Navigate to `Extensions > Installer`.
@@ -23,17 +21,6 @@ The **Playful Sparkle - COD fee** extension for OpenCart 3.x+ allows store owner
 5. Navigate to `Extensions > Extensions` and select `Order Totals` from the `Choose the extension type` dropdown list.
 6. Locate the extension in the `Order Totals` list and click the `Install` button.
 7. Click the `Edit` button, configure the extension parameters, and click the `Save` button to save your settings.
-
-### Installation Instructions for OpenCart 4.x+
-
-1. Download the latest version from this repository.
-2. Log in to your OpenCart admin panel.
-3. Navigate to `Extensions > Installer`.
-4. Click the `Upload` button and upload the `ps_cod_fee.ocmod.zip` file.
-5. Locate the extension in the `Installed Extensions` list and click the `Install` button.
-6. Navigate to `Extensions > Extensions` and select `Order Totals` from the `Choose the extension type` dropdown list.
-7. Locate the extension in the `Order Totals` list and click the `Install` button.
-8. Click the `Edit` button, configure the extension parameters, and click the `Save` button to save your settings.
 
 ---
 
