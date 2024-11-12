@@ -63,9 +63,9 @@ class ControllerExtensionTotalPsCodFee extends Controller
         }
 
         if (isset($this->request->post['total_ps_cod_fee_tax_class_id'])) {
-            $data['total_ps_cod_fee_tax_class_id'] = $this->request->post['total_ps_cod_fee_tax_class_id'];
+            $data['total_ps_cod_fee_tax_class_id'] = (int) $this->request->post['total_ps_cod_fee_tax_class_id'];
         } else {
-            $data['total_ps_cod_fee_tax_class_id'] = $this->config->get('total_ps_cod_fee_tax_class_id');
+            $data['total_ps_cod_fee_tax_class_id'] = (int) $this->config->get('total_ps_cod_fee_tax_class_id');
         }
 
         $this->load->model('localisation/tax_class');
@@ -73,15 +73,15 @@ class ControllerExtensionTotalPsCodFee extends Controller
         $data['tax_classes'] = $this->model_localisation_tax_class->getTaxClasses();
 
         if (isset($this->request->post['total_ps_cod_fee_status'])) {
-            $data['total_ps_cod_fee_status'] = $this->request->post['total_ps_cod_fee_status'];
+            $data['total_ps_cod_fee_status'] = (bool) $this->request->post['total_ps_cod_fee_status'];
         } else {
-            $data['total_ps_cod_fee_status'] = $this->config->get('total_ps_cod_fee_status');
+            $data['total_ps_cod_fee_status'] = (bool) $this->config->get('total_ps_cod_fee_status');
         }
 
         if (isset($this->request->post['total_ps_cod_fee_sort_order'])) {
-            $data['total_ps_cod_fee_sort_order'] = $this->request->post['total_ps_cod_fee_sort_order'];
+            $data['total_ps_cod_fee_sort_order'] = (int) $this->request->post['total_ps_cod_fee_sort_order'];
         } else {
-            $data['total_ps_cod_fee_sort_order'] = $this->config->get('total_ps_cod_fee_sort_order');
+            $data['total_ps_cod_fee_sort_order'] = (int) $this->config->get('total_ps_cod_fee_sort_order');
         }
 
         $data['text_contact'] = sprintf($this->language->get('text_contact'), self::EXTENSION_EMAIL, self::EXTENSION_EMAIL, self::EXTENSION_DOC);
