@@ -57,9 +57,9 @@ class ControllerExtensionTotalPsCodFee extends Controller
         $data['cancel'] = $this->url->link('marketplace/extension', 'user_token=' . $this->session->data['user_token'] . '&type=total', true);
 
         if (isset($this->request->post['total_ps_cod_fee_fee'])) {
-            $data['total_ps_cod_fee_fee'] = $this->request->post['total_ps_cod_fee_fee'];
+            $data['total_ps_cod_fee_fee'] = (float) $this->request->post['total_ps_cod_fee_fee'];
         } else {
-            $data['total_ps_cod_fee_fee'] = $this->config->get('total_ps_cod_fee_fee');
+            $data['total_ps_cod_fee_fee'] = (float) $this->config->get('total_ps_cod_fee_fee');
         }
 
         if (isset($this->request->post['total_ps_cod_fee_tax_class_id'])) {
