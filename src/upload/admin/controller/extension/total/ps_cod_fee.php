@@ -108,7 +108,16 @@ class ControllerExtensionTotalPsCodFee extends Controller
 
     public function install()
     {
+        $this->load->model('setting/setting');
 
+        $data = array(
+            'total_ps_cod_fee_fee' => '',
+            'total_ps_cod_fee_tax_class_id' => 0,
+            'total_ps_cod_fee_status' => false,
+            'total_ps_cod_fee_sort_order' => 1
+        );
+
+        $this->model_setting_setting->editSetting('total_ps_cod_fee', $data);
     }
 
     public function uninstall()
