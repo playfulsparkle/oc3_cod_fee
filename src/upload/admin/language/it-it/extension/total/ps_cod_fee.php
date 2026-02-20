@@ -1,18 +1,12 @@
 <?php
 // Heading
 $_['heading_title']              = 'Playful Sparkle - COD fee';
-$_['heading_getting_started']    = 'Introduzione';
-$_['heading_setup']              = 'Configurazione della commissione COD';
-$_['heading_faq']                = 'FAQ';
 $_['heading_contact']            = 'Contatta il supporto';
 
 // Text
 $_['text_extension']             = 'Estensioni';
 $_['text_success']               = 'Successo: Hai modificato la commissione per il contrassegno!';
 $_['text_edit']                  = 'Modifica la commissione per il contrassegno';
-$_['text_getting_started']       = '<p><strong>Panoramica:</strong> La commissione COD di Playful Sparkle per OpenCart 3.x permette ai proprietari di negozi di aggiungere una commissione configurabile agli ordini che utilizzano il metodo di pagamento Contrassegno (COD). Questa funzionalità aiuta a compensare i costi di gestione COD, offrendo maggiore controllo sui totali degli ordini.</p><p><strong>Requisiti:</strong> OpenCart 3.x+, PHP 7.3 o superiore.</p>';
-$_['text_setup']                 = '<p>Per configurare, inserire l’importo della commissione desiderato (comprensivo di IVA), selezionare la classe fiscale appropriata e attivare l’estensione. La commissione verrà applicata automaticamente e si adatterà alle impostazioni fiscali del negozio, ricalcolando la commissione netta in base all’aliquota fiscale specificata. Ad esempio, se la commissione è impostata a 5 EUR e l’aliquota è del 20%, la commissione sarà ricalcolata a 4,17 EUR (netto) al momento del pagamento.</p>';
-$_['text_faq']                   = '<details><summary>Posso applicare commissioni diverse per altri metodi di pagamento?</summary>No, questa estensione si applica solo agli ordini con il metodo di pagamento Contrassegno (COD).</details><details><summary>La commissione verrà visualizzata separatamente nel riepilogo dell’ordine?</summary>Sì, la commissione sarà visualizzata come voce separata nel riepilogo dell’ordine durante il checkout, con adeguamenti fiscali effettuati secondo le impostazioni fiscali del negozio.</details>';
 $_['text_contact']               = '<p>Per ulteriore assistenza, si prega di contattare il nostro team di supporto:</p><ul><li><strong>Contatto:</strong> <a href="mailto:%s">%s</a></li><li><strong>Documentazione:</strong> <a href="%s" target="_blank" rel="noopener noreferrer">Documentazione Utente</a></li></ul>';
 
 // Tab
