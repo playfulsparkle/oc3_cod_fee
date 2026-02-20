@@ -7,7 +7,7 @@ $_['heading_contact']            = 'Contatta il supporto';
 $_['text_extension']             = 'Estensioni';
 $_['text_success']               = 'Successo: Hai modificato la commissione per il contrassegno!';
 $_['text_edit']                  = 'Modifica la commissione per il contrassegno';
-$_['text_contact']               = '<p>Per ulteriore assistenza, si prega di contattare il nostro team di supporto:</p><ul><li><strong>Contatto:</strong> <a href="mailto:%s">%s</a></li><li><strong>Documentazione:</strong> <a href="%s" target="_blank" rel="noopener noreferrer">Documentazione Utente</a></li></ul>';
+$_['text_contact']               = '<p>Per ulteriore assistenza, contatta il nostro team di supporto:</p><ul><li><strong>Contatto:</strong> <a href="mailto:%s">%s</a></li><li><strong>Documentazione:</strong> <a href="%s" target="_blank" rel="noopener noreferrer">Documentazione Utente</a></li></ul>';
 
 // Tab
 $_['tab_general']                = 'Generale';
